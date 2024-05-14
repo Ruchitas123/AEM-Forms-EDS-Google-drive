@@ -22,3 +22,6 @@ export function setSubmitBaseUrl(url) {
 export function getSubmitBaseUrl() {
   return submitBaseUrl;
 }
+export function getPlaceHolderPath() {
+return window.location.pathname?.split('/')?.slice(0, 3)?.join('/');
+}
