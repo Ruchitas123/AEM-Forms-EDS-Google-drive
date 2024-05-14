@@ -22,3 +22,10 @@ export function setSubmitBaseUrl(url) {
 export function getSubmitBaseUrl() {
   return submitBaseUrl;
 }
+/**
+* Identifies the placeholder path for the current page.
+* @returns {string} placeholder path
+* */
+export function getPlaceHolderPath() {
+return window.location.pathname?.split('/')?.slice(0, 3)?.join('/');
+}
