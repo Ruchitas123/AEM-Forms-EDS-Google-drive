@@ -237,6 +237,7 @@ export function checkValidation(fieldElement) {
     removeInvalidMsg(fieldElement);
     return;
   }
+
   const message = translate(getValidationMessage(fieldElement, wrapper));
   updateOrCreateInvalidMsg(fieldElement, message);
 }
