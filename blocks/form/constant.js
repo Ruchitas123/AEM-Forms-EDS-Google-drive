@@ -34,5 +34,5 @@ export function getSubmitBaseUrl() {
  * @returns {string} placeholder path
  * */
 export function getPlaceHolderPath() {
-  return '';
+    return window.location.pathname?.split('/')?.slice(0, 3)?.join('/');
 }
