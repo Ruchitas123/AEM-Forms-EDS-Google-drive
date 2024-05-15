@@ -13,7 +13,7 @@ export const defaultErrorMessages = {
   maxLength: 'Please shorten this text to $0 characters or less.',
   maximum: 'Value must be less than or equal to $0.',
   minimum: 'Value must be greater than or equal to $0.',
-  required: 'Please fill in this field.',
+
 };
 
 // eslint-disable-next-line no-useless-escape
