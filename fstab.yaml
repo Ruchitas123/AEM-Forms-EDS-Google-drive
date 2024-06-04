@@ -1,5 +1,5 @@
 mountpoints:
  /:
-    url https://author-p76902-e226514-cmstg.adobeaemcloud.com/
+    url http://localhost:4502/
     type: "markup"
     suffix: ".html"
