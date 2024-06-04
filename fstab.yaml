@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1ByFhU9vfgnd_7UwJJKzafOJIb0oy2ush
+ /:
+    url https://author-p76902-e226514-cmstg.adobeaemcloud.com/
+    type: "markup"
+    suffix: ".html"
